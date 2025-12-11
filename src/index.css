@@ -228,9 +228,12 @@
   @apply bg-muted-foreground/50;
 }
 body {
+  @apply text-foreground font-sans antialiased;
+  font-family: 'Inter', sans-serif;
   background-image: url('/Backroung.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 
