@@ -227,10 +227,4 @@
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-muted-foreground/50;
 }
-body {
-  background-image: url('/Backroung.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
