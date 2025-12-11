@@ -110,8 +110,8 @@ export const products: Product[] = [
   description:
     "A high-performance 4K camera designed for professional photography and videography. Features night vision, optical stabilization, and ultra-wide lens.",
   images: [
-    "/public/camera.jpg",
-    "/public/camera.jpg"
+    "/camera.jpg",
+    "/camera.jpg"
   ],
   colors: [
     { name: "Black", value: "#000000" },
