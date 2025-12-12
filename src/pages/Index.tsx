@@ -29,7 +29,8 @@ const Index = () => {
   return (
     <AuthProvider>
       <CartProvider>
-        <div className="min-h-screen bg-background">
+        <div className="bg-transparent">
+
           <Header onThemeToggle={() => setIsDark(!isDark)} isDark={isDark} />
           <main>
             <Hero />
