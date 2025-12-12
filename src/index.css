@@ -230,14 +230,8 @@
 body {
   @apply text-foreground font-sans antialiased;
   font-family: 'Inter', sans-serif;
-
-  /* Background Image */
-  background-image: url('/Backroung.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* تأثير فخم */
 }
+
 
 
 
