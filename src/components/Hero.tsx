@@ -90,7 +90,7 @@ const Hero = () => {
               {/* Main image */}
               <div className="absolute inset-8 rounded-full overflow-hidden shadow-2xl animate-float">
                 <img
-                  src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80"
+                  src="/Accuel.jpeg"
                   alt="Azure Porcelain Vase"
                   className="w-full h-full object-cover"
                 />
