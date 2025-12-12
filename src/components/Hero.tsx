@@ -4,15 +4,19 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Elements Removed */}
 
       <div className="container-narrow relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-          {/* Content */}
-          <div className="order-2 lg:order-1 text-center lg:text-left">
+
+          {/* Content with glass background */}
+          <div
+            className="order-2 lg:order-1 text-center lg:text-left
+            bg-white/40 dark:bg-black/40 backdrop-blur-xl p-8 rounded-3xl shadow-2xl"
+          >
             <p className="text-primary font-medium tracking-widest uppercase text-sm mb-4 animate-fade-up">
               Handcrafted Excellence
             </p>
+
             <h1
               className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-[1.1] mb-6 animate-fade-up"
               style={{ animationDelay: "0.1s" }}
@@ -22,6 +26,7 @@ const Hero = () => {
               <br />
               Porcelain Art
             </h1>
+
             <p
               className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed animate-fade-up"
               style={{ animationDelay: "0.2s" }}
@@ -30,6 +35,7 @@ const Hero = () => {
               craftsmanship meets contemporary elegance. Each piece tells a story
               spanning centuries.
             </p>
+
             <div
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-up"
               style={{ animationDelay: "0.3s" }}
@@ -40,6 +46,7 @@ const Hero = () => {
                   <ArrowRight className="h-5 w-5 ml-2" />
                 </a>
               </Button>
+
               <Button variant="outline" size="xl" asChild>
                 <a href="#story">Our Story</a>
               </Button>
@@ -56,12 +63,14 @@ const Hero = () => {
                 </p>
                 <p className="text-sm text-muted-foreground">Years of Craft</p>
               </div>
+
               <div>
                 <p className="font-serif text-3xl md:text-4xl font-semibold text-primary">
                   5000+
                 </p>
                 <p className="text-sm text-muted-foreground">Pieces Created</p>
               </div>
+
               <div>
                 <p className="font-serif text-3xl md:text-4xl font-semibold text-primary">
                   98%
@@ -74,10 +83,11 @@ const Hero = () => {
           {/* Image */}
           <div className="order-1 lg:order-2 relative">
             <div className="relative w-full aspect-square max-w-lg mx-auto">
+
               {/* Decorative ring */}
               <div className="absolute inset-0 rounded-full border-2 border-dashed border-primary/20 animate-[spin_60s_linear_infinite]" />
 
-              {/* Main image container */}
+              {/* Main image */}
               <div className="absolute inset-8 rounded-full overflow-hidden shadow-2xl animate-float">
                 <img
                   src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=800&q=80"
@@ -90,12 +100,13 @@ const Hero = () => {
               {/* Floating badge */}
               <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 glass px-6 py-3 rounded-full shadow-lg">
                 <p className="text-sm font-medium">
-                  <span className="text-primary">Limited Edition</span> • Ming
-                  Collection
+                  <span className="text-primary">Limited Edition</span> • Ming Collection
                 </p>
               </div>
+
             </div>
           </div>
+
         </div>
       </div>
     </section>
